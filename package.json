@@ -1,0 +1,14 @@
+{
+  "name": "testcafeautomationdemo",
+  "version": "1.0.0",
+  "description": "Demonstration of test automation using open-source test cafe framework.",
+  "main": "index.js",
+  "scripts": {
+    "test": "testcafe chrome tests/*"
+  },
+  "author": "Juraj Cidorík",
+  "license": "MIT",
+  "dependencies": {
+    "testcafe": "^1.9.4"
+  }
+}
