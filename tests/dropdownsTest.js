@@ -10,5 +10,5 @@ test("Selecting item from dropdown", async t => {
     await t
         .navigateTo("/dropdown")
         .click(dropdownElement)
-        .click(dropdownOptions.withText('Option 1'))
-})
+        .click(dropdownOptions.withText('Option 1'));
+});
